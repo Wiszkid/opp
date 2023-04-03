@@ -1,0 +1,80 @@
+/* Set the background color */
+body {
+  background-color: #90caf9;
+}
+
+/* Center the main container element */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container img {
+  float: right;
+}
+
+/* Define the color scheme */
+header {
+  color: #8f1515;
+  font-size: x-large;
+}
+
+/* Add a border to the bottom of each section 
+section {
+  border-top: 5px solid #000000;
+  padding-top: auto;
+  margin-top: auto;
+  padding-bottom: auto;
+  margin-bottom: auto;
+}
+*/
+
+/* Change the Emphasis */
+em {
+  font-weight: bold;
+  color: #f00a3c;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #111; /* set the color to red */
+}
+
+p {
+  font-size: 20px;
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.columns ul {
+  flex-basis: 45%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.columns li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+h1 {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 200px / 50px;
+  padding: 10px;
+  background-color: #add8e6;
+}
+
+#services {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 200px / 100px;
+  padding: 10px;
+  background-color: #add8e6;
+}
